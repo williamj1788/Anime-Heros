@@ -9,3 +9,8 @@
 .c-text{
 	font-size: 23px;
 }
+a.card,
+a.card:hover {
+  color: #212529;
+  text-decoration: none;
+}
