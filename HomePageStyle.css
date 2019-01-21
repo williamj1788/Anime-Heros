@@ -4,5 +4,8 @@
 #main{
 	position: relative;
 	top: 80px;
-
+	background-color: #515151;
+}
+.c-text{
+	font-size: 23px;
 }
