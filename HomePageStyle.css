@@ -1,16 +1,25 @@
 #Nav-text{
 	font-size: 32px;
 }
+#title-text{
+	font-size: 60px;
+	color: #FFCD00;
+	font-family: 'Overlock', cursive;
+}
 #main{
-	position: relative;
-	top: 80px;
 	background-color: #515151;
+	background-image: url("./images/back.jpg");
 }
 .c-text{
 	font-size: 23px;
+	font-family: 'Karma', serif;
 }
 a.card,
 a.card:hover {
   color: #212529;
   text-decoration: none;
+}
+.h-title{
+	font-size: 35px;
+	font-family: 'Overlock', cursive;
 }
