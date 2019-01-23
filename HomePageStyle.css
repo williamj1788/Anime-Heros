@@ -6,10 +6,11 @@
 	color: #FFCD00;
 	font-family: 'Overlock', cursive;
 }
-#main{
+#cool{
 	background-color: #515151;
-	background-image: url("./images/Saitama.gif");
+	background-image: url("./images/back.jpg");
 	background-repeat: no-repeat;
+	background-position: center;
 	background-size: cover;
 }
 .c-text{
