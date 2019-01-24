@@ -7,5 +7,9 @@
 	font-weight: 500;
 }
 .info-c{
-	border: 1px solid black;
+	
+}
+.info-text{
+	font-size: 20px;
+	font-family: 'Karma', serif;
 }

@@ -2,25 +2,27 @@
 <html>
 	<head>
 		<title>My Hero List</title>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 		<link href="https://fonts.googleapis.com/css?family=Karma:300|Overlock:900" rel="stylesheet">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" defer></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js" defer></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="Hero1Style.css">
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 	</head>
 	<body>
 		<nav class="navbar navbar-light py-0" style="background-color: #DFC51C">
 			<div id="hero-title" class="navbar-brand pl-5">Saitama</div>
-			<ul id="n-list" class="navbar-nav justify-content-end pr-5">
+			<ul id="n-list" class="navbar-nav pr-5">
 				<li class="nav-item"><a class="nav-link" href="HomePage.html">Home</a></li>
 			</ul>
 		</nav>
 		<div class="container-fluid px-5 mt-5">
-			<div class="row  mx-0 justify-content-between">
-				<div class="col-8 info-c">
-					<h2 class="d-inline">Info Title</h2>
-					<button type="button" class="btn btn-primary d-inline">Plus</button>
-					<p class="pb-5">Lorem ipsum dolor sit amet, consectetur adipiscing 
+			<div class="row mx-0 justify-content-between">
+				<div class="col-lg-8 col-md-10 col-sm-10 mt-sm-5 order-lg-1 order-md-2 order-sm-2 order-xs-2 info-c">
+					<h2 class="d-inline-block mt-3 mb-0">Info Title</h2>
+					<button type="button" class="btn btn-primary d-inline-block ml-3 mb-3" data-toggle="collapse" data-target="#target1"><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
+					<p id="target1" class="pb-5 info-text collapse show"> Lorem ipsum dolor sit amet, consectetur adipiscing 
 					elit. Sed mi ligula, vulputate nec tincidunt vel, 
 					maximus sed elit. In dignissim laoreet ipsum dignissim 
 					convallis. Donec sit amet commodo orci. Pellentesque 
@@ -30,9 +32,72 @@
 					Donec at ante ut sapien bibendum vestibulum ut at 
 					sapien. Nunc iaculis nec odio id finibus. Cras vitae 
 					mauris sed dui condimentum malesuada a.</p>
+					 
 				</div>
-				<div class="col-3 info-c ml-5 p-0">
-					<img src="./images/SaitamaHero1.jpg" height="100%" width="100%">
+				<div class="col-lg-3 col-md-10 col-sm-10 order-lg-2 order-md-1 order-sm-1 order-xs-1 p-0">
+					<img src="./images/Saitama.png" class="w-100">
+				</div>
+			</div>
+			<div class="row mx-0 justify-content-between">
+				<div class="col-lg-8 col-md-10 col-sm-10 p-0">
+					<div class="row mx-0 mt-5">
+						<div class="col-12 info-c">
+							<h2 class="d-inline-block mt-3 mb-0">Info Title</h2>
+							<button type="button" class="btn btn-primary d-inline-block ml-3 mb-3" data-toggle="collapse" data-target="#target2"><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
+							<p id="target2" class="pb-5 info-text collapse show"> Lorem ipsum dolor sit amet, consectetur adipiscing 
+							elit. Sed mi ligula, vulputate nec tincidunt vel, 
+							maximus sed elit. In dignissim laoreet ipsum dignissim 
+							convallis. Donec sit amet commodo orci. Pellentesque 
+							auctor, mauris vitae congue tincidunt, eros erat 
+							elementum ipsum, dapibus pulvinar orci tellus at 
+							velit. Donec lacinia eleifend sapien et lacinia. 
+							Donec at ante ut sapien bibendum vestibulum ut at 
+							sapien. Nunc iaculis nec odio id finibus. Cras vitae 
+							mauris sed dui condimentum malesuada a.
+							</p>
+						</div>
+					</div>
+					<div class="row mx-0 mt-5">
+						<div class="col-12 info-c">
+							<h2 class="d-inline-block mt-3 mb-0">Info Title</h2>
+							<button type="button" class="btn btn-primary d-inline-block ml-3 mb-3" data-toggle="collapse" data-target="#target3"><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
+							<p id="target3" class="pb-5 info-text collapse show"> Lorem ipsum dolor sit amet, consectetur adipiscing 
+							elit. Sed mi ligula, vulputate nec tincidunt vel, 
+							maximus sed elit. In dignissim laoreet ipsum dignissim 
+							convallis. Donec sit amet commodo orci. Pellentesque 
+							auctor, mauris vitae congue tincidunt, eros erat 
+							elementum ipsum, dapibus pulvinar orci tellus at 
+							velit. Donec lacinia eleifend sapien et lacinia. 
+							Donec at ante ut sapien bibendum vestibulum ut at 
+							sapien. Nunc iaculis nec odio id finibus. Cras vitae 
+							mauris sed dui condimentum malesuada a.
+							</p>
+						</div>
+					</div>
+					<div class="row mx-0 my-5">
+						<div class="col-12 info-c">
+							<h2 class="d-inline-block mt-3 mb-0">Info Title</h2>
+							<button type="button" class="btn btn-primary d-inline-block ml-3 mb-3" data-toggle="collapse" data-target="#target4"><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
+							<p id="target4" class="pb-5 info-text collapse show"> Lorem ipsum dolor sit amet, consectetur adipiscing 
+							elit. Sed mi ligula, vulputate nec tincidunt vel, 
+							maximus sed elit. In dignissim laoreet ipsum dignissim 
+							convallis. Donec sit amet commodo orci. Pellentesque 
+							auctor, mauris vitae congue tincidunt, eros erat 
+							elementum ipsum, dapibus pulvinar orci tellus at 
+							velit. Donec lacinia eleifend sapien et lacinia. 
+							Donec at ante ut sapien bibendum vestibulum ut at 
+							sapien. Nunc iaculis nec odio id finibus. Cras vitae 
+							mauris sed dui condimentum malesuada a.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-10 col-lg-3 col-xl-3 my-5 pt-3" style="border: 1px solid black;">
+					<h3 class="text-center">Other Characters</h3>
+					<h5 class="text-center">Sonic</h5>
+					<img src="./images/Sonic.png" class="w-100">
+					<h5 class="text-center">Genos</h5>
+					<img src="./images/Genos.png" class="w-100">
 				</div>
 			</div>
 		</div>
