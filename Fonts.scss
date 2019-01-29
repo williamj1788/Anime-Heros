@@ -1,0 +1,32 @@
+@mixin fontType ($size, $weight: normal, $family: serif){
+    font: {
+        size: $size;
+        weight: $weight;
+        family: $family;
+    }
+}
+
+#hero-title{
+    @include fontType(60px, 700, ('Overlock', cursive));
+}
+
+#n-list{
+    @include fontType(30px, 500);
+}
+
+.info-text{
+    @include fontType(20px, normal, ('Karma', serif));
+}
+
+.info-title{
+    @include fontType(40px, normal, ('Overlock', cursive));
+    opacity: 0.9;
+}
+
+.other-text{
+    @include fontType(40px,normal, ('Overlock', cursive));
+}
+
+.other-sub{
+    @include fontType(60px);
+}

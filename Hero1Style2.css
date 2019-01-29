@@ -1,0 +1,38 @@
+#hero-title {
+  font-size: 60px;
+  font-weight: 700;
+  font-family: "Overlock", cursive;
+}
+
+#n-list {
+  font-size: 30px;
+  font-weight: 500;
+  font-family: serif;
+}
+
+.info-text {
+  font-size: 20px;
+  font-weight: normal;
+  font-family: "Karma", serif;
+}
+
+.info-title {
+  font-size: 40px;
+  font-weight: normal;
+  font-family: "Overlock", cursive;
+  opacity: 0.9;
+}
+
+.other-text {
+  font-size: 40px;
+  font-weight: normal;
+  font-family: "Overlock", cursive;
+}
+
+.other-sub {
+  font-size: 60px;
+  font-weight: normal;
+  font-family: serif;
+}
+
+/*# sourceMappingURL=Hero1Style2.css.map */
